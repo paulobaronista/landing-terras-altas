@@ -1,0 +1,89 @@
+@media only screen and (min-width: 0px) and (min-width: 680px) {
+ .box-mobile {
+  display: none;
+ }
+}
+@media only screen and (min-width: 0px) and (max-width: 680px) {
+
+#page-full {
+ height: 120% !important;
+}
+#container-form {
+ width: 100% !important;
+ height: 550px;
+ position: relative;
+ float: left;
+ left: 0% !important;
+ margin-left: 0px !important;
+ background: none;
+}
+#box_form {
+ width: 100% !important;
+ height: 527px !important;
+ margin-top: 0px !important;
+ -webkit-border-radius: 0px !important;
+ -moz-border-radius: 0px !important;
+ border-radius: 0px !important;
+ margin-right: 0px !important;
+}
+#box_form span {
+ text-align: center !important;
+ width: 100% !important;
+ margin-left: 0px !important;
+}
+form input {
+ width: 94% !important;
+ height: 50px !important;
+ padding: 0 1% 0 1% !important;
+ margin: 0 2% 0px 2% !important;
+}
+form select {
+ width: 94% !important;
+ height: 50px !important;
+ padding: 0 1% 0 1% !important;
+ margin: 0 2% 0px 2% !important;
+}
+form textarea {
+ width: 94% !important;
+ height: 120px !important;
+ padding: 3% 1% 0 1% !important;
+ margin: 0 2% 0px 2% !important;
+}
+.enviar {
+ width: 98% !important;
+ margin: 10px 1% 0 1% !important;
+ padding: 15px 0 15px 0;
+}
+small {
+ margin: 5px 0 0 0 !important;
+}
+.box-mobile {
+ width: 100%;
+ text-align: center;
+ background-color: rgba(255,255,255,0.5);
+}
+.fundo-01-mobile img {
+ max-width: 100%;
+}
+.resp-mobile {
+ display: none;
+}
+#container-rodape {
+ margin-top: -23px !important;
+ height: 132px !important;
+ padding-bottom: 20%;
+}
+
+}
+/* End Mobile Styles */   
+
+
+
+
+
+
+
+
+
+
+

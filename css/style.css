@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+body { font-family: 'Raleway', sans-serif; font-size: 10px;}
+
+#page-full {
+ background: url(../imagens/topo-full.jpg) no-repeat scroll center center / cover;
+ background-attachment: scroll;
+ height: 849px
+}
+#container-form {
+ width: 1006px;
+ height: 100%;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -503px;
+ z-index: 100;
+ background: url(../imagens/container.png) no-repeat center;
+}
+#box_form {
+ width: 325px;
+ height: 437px;
+ background-color: #ebe9db;
+ float: right;
+ margin-right: 174px;
+ margin-top: 202px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+#box_form span {
+ color: #30123d;
+ font-size: 24px;
+ position: relative;
+ display: block;
+ text-align: left;
+ font-family: 'Raleway', sans-serif;
+ text-transform: uppercase;
+ border-bottom: solid 1px #30123d;
+ padding: 11px 0 2px 0;
+ width: 300px;
+ margin-bottom: 10px;
+ margin-left: 11px;
+}
+form input {
+ width: 290px;
+ height: 30px;
+ border: none;
+ padding: 0 5px 0 5px;
+ margin: 0 0 10px 12px;
+ font-family: 'Raleway', sans-serif;
+ color: #182f17;
+ font-size: 14px;
+}
+form textarea {
+ width: 290px;
+ height: 80px;
+ border: none;
+ padding: 5px;
+ margin: 0 0 10px 12px;
+ color: #182f17;
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+}
+form label {
+ font-size: 18px;
+ font-family: 'Raleway', sans-serif; 
+ text-transform: uppercase;
+ padding: 5px 0 2px 0;
+ float: left;
+ margin-left: 12px;
+ color: #182f17;
+}
+.statusNome {
+ margin-top: 5px;
+}
+small {
+ float: left;
+ padding: 0 0 0 15px;
+ margin: -5px 0 0 0;
+ width: 80%;
+ color: #30123d;
+}
+.enviar {
+ width: 90%;
+ cursor: pointer;
+ outline: none;
+ background-color: #182f17;
+ font-family: 'Raleway', sans-serif;
+ padding: 5px 0 5px 0;
+ margin: 10px 5% 0 5%;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 20px;
+ text-decoration: none;
+ color: #FFF;
+ float: left;
+}
+.enviar:hover {
+ background-color: #30123d;
+}
+#container-rodape {
+ width: 100%;
+ position: relative;
+ float: left;
+ height: 127px;
+ text-align: center;
+ background-color: #ebe9db;
+ border-top: solid 6px #fff;
+}
+.txt-resposta p {
+ text-align: center;
+ font-size: 23px;
+ color: #30123d;
+ line-height: 30px;
+ text-transform: uppercase;
+ padding-top: 130px;
+}
+
+::-webkit-input-placeholder { color: inherit;} /*Atributo para o Chrome colocar cor dentro do input*/
+
+/* Hack ie10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+
+   
+}
